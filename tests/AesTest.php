@@ -5,6 +5,12 @@ use PHPUnit\Framework\TestCase;
 
 class AesTest extends TestCase
 {
+    /**
+     * @covers \PhpAes\Aes::encrypt
+     * @covers \PhpAes\Aes::decrypt
+     *
+     * @return void
+     */
     public function test()
     {
         $plaintext = "message to be encrypted  ";
